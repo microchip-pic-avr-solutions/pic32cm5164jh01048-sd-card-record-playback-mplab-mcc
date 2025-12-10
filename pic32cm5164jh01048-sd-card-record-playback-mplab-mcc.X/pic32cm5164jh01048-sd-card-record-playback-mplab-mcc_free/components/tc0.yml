@@ -1,0 +1,184 @@
+configVersion: 1.0.0
+componentName: tc0
+coreVersion: 5.8.3
+device: PIC32CM5164JH01048
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: tc0
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: tc0
+          x: '25'
+          y: '176'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    COMPARE_SET_API_NAME:
+      attributes:
+        id: COMPARE_SET_API_NAME
+      children:
+      - children:
+        - attributes:
+            id: tc0
+            value: TC0_Timer32bitCompareSet
+          type: Dynamic
+        type: Values
+      type: String
+    COUNTER_GET_API_NAME:
+      attributes:
+        id: COUNTER_GET_API_NAME
+      children:
+      - children:
+        - attributes:
+            id: tc0
+            value: TC0_Timer32bitCounterGet
+          type: Dynamic
+        type: Values
+      type: String
+    PERIOD_SET_API_NAME:
+      attributes:
+        id: PERIOD_SET_API_NAME
+      children:
+      - children:
+        - attributes:
+            id: tc0
+            value: TC0_Timer32bitPeriodSet
+          type: Dynamic
+        type: Values
+      type: String
+    TC_CTRLA_MODE:
+      attributes:
+        id: TC_CTRLA_MODE
+      children:
+      - children:
+        - attributes:
+            value: '2'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TC_CTRLA_PRESCALER:
+      attributes:
+        id: TC_CTRLA_PRESCALER
+      children:
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TC_FREQUENCY:
+      attributes:
+        id: TC_FREQUENCY
+      children:
+      - children:
+        - attributes:
+            id: tc0
+            value: '48000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TC_TIMER_EVCTRL_EV:
+      attributes:
+        id: TC_TIMER_EVCTRL_EV
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    TC_TIMER_EVCTRL_OVFEO:
+      attributes:
+        id: TC_TIMER_EVCTRL_OVFEO
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TC_TIMER_PERIOD:
+      attributes:
+        id: TC_TIMER_PERIOD
+      children:
+      - children:
+        - attributes:
+            id: max
+          children:
+          - type: Value
+            value: '4294967295'
+          type: Long
+        type: Attributes
+      - children:
+        - attributes:
+            id: tc0
+            value: '998'
+          type: Dynamic
+        type: Values
+      type: Long
+    TC_TIMER_TIME_MS:
+      attributes:
+        id: TC_TIMER_TIME_MS
+      children:
+      - children:
+        - attributes:
+            id: max
+          children:
+          - type: Value
+            value: '8.9478488E10'
+          type: Float
+        type: Attributes
+      - children:
+        - attributes:
+            value: '20833.0'
+          type: User
+        type: Values
+      type: Float
+    TC_TIMER_UNIT:
+      attributes:
+        id: TC_TIMER_UNIT
+      children:
+      - children:
+        - attributes:
+            value: nanosecond
+          type: User
+        type: Values
+      type: Combo
+    TIMER_PERIOD_MAX:
+      attributes:
+        id: TIMER_PERIOD_MAX
+      children:
+      - children:
+        - attributes:
+            id: tc0
+            value: '4294967295'
+          type: Dynamic
+        type: Values
+      type: String
+    TIMER_WIDTH:
+      attributes:
+        id: TIMER_WIDTH
+      children:
+      - children:
+        - attributes:
+            id: tc0
+            value: '32'
+          type: Dynamic
+        type: Values
+      type: Integer
+  userData: {}

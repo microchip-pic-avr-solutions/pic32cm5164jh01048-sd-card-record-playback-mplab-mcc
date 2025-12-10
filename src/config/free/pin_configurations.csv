@@ -1,0 +1,39 @@
+Pin Number,Pin ID,Custom Name,Function,Mode, Direction,Latch,Pull Up,Pull Down,Drive Strength
+1,PA00,DBG1,GPIO,Digital,Out,Low,,,NORMAL
+2,PA01,DBG2,GPIO,Digital,Out,Low,,,NORMAL
+3,PA02,,ADC0_AIN0,Analog,High Impedance,n/a,,,NORMAL
+4,PA03,SW3,GPIO,Digital,In,n/a,Yes,No,NORMAL
+7,PB08,SW1,GPIO,Digital,In,n/a,Yes,No,NORMAL
+8,PB09,,ADC1_AIN5,Analog,High Impedance,n/a,,,NORMAL
+9,PA04,LED_RED,GPIO,Digital,Out,Low,,,NORMAL
+10,PA05,LED_GREEN,GPIO,Digital,Out,Low,,,NORMAL
+11,PA06,LED_BLUE,GPIO,Digital,Out,Low,,,NORMAL
+12,PA07,,ADC0_AIN7,Analog,High Impedance,n/a,,,NORMAL
+13,PA08,,SERCOM0_PAD0,Digital,High Impedance,n/a,No,No,STRONG
+14,PA09,,SERCOM0_PAD1,Digital,High Impedance,n/a,No,No,STRONG
+15,PA10,LED6,GPIO,Digital,Out,High,,,NORMAL
+16,PA11,,CCL_OUT1,Digital,High Impedance,n/a,No,No,NORMAL
+19,PB10,LED2,GPIO,Digital,Out,High,,,NORMAL
+20,PB11,LED3,GPIO,Digital,Out,High,,,NORMAL
+21,PA12,,SERCOM2_PAD0,Digital,Out,Low,,,STRONG
+22,PA13,,SERCOM2_PAD1,Digital,In,n/a,Yes,No,STRONG
+23,PA14,LED4,GPIO,Digital,Out,High,,,NORMAL
+24,PA15,,SERCOM2_PAD3,Digital,In,n/a,Yes,No,NORMAL
+25,PA16,,Available,,,,,,NORMAL
+26,PA17,,Available,,,,,,NORMAL
+27,PA18,,Available,,,,,,NORMAL
+28,PA19,,SERCOM1_PAD3,Digital,Out,High,,,NORMAL
+29,PA20,uSD_CS,GPIO,Digital,In/Out,Low,,,NORMAL
+30,PA21,LED5,GPIO,Digital,Out,High,,,NORMAL
+31,PA22,LED0,GPIO,Digital,Out,High,,,NORMAL
+32,PA23,LED1,GPIO,Digital,Out,High,,,NORMAL
+33,PA24,,CCL_IN8,Digital,Out,High,,,NORMAL
+34,PA25,SW2,GPIO,Digital,In,n/a,Yes,No,NORMAL
+37,PB22,,Available,,,,,,NORMAL
+38,PB23,,Available,,,,,,NORMAL
+39,PA27,SW4,GPIO,Digital,In,n/a,Yes,No,NORMAL
+41,PA28,LED7,GPIO,Digital,Out,High,,,NORMAL
+45,PA30,,Available,,,,,,NORMAL
+46,PA31,,Available,,,,,,NORMAL
+47,PB02,,PTC_Y8,Analog,High Impedance,n/a,,,NORMAL
+48,PB03,,Available,,,,,,NORMAL

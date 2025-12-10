@@ -1,0 +1,495 @@
+configVersion: 1.0.0
+componentName: ccl
+coreVersion: 5.8.3
+device: PIC32CM5164JH01048
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: ccl
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: ccl
+          x: '523'
+          y: '118'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    CCL_CTRL_REGVALUE:
+      attributes:
+        id: CCL_CTRL_REGVALUE
+      children:
+      - children:
+        - attributes:
+            id: ccl
+            value: '2'
+          type: Dynamic
+        type: Values
+      type: Hex
+    CCL_ENABLE:
+      attributes:
+        id: CCL_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    CCL_LUTCTRL_REGVALUE0:
+      attributes:
+        id: CCL_LUTCTRL_REGVALUE0
+      children:
+      - children:
+        - attributes:
+            id: ccl
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    CCL_LUTCTRL_REGVALUE1:
+      attributes:
+        id: CCL_LUTCTRL_REGVALUE1
+      children:
+      - children:
+        - attributes:
+            id: ccl
+            value: '3356067842'
+          type: Dynamic
+        type: Values
+      type: Hex
+    CCL_LUTCTRL_REGVALUE2:
+      attributes:
+        id: CCL_LUTCTRL_REGVALUE2
+      children:
+      - children:
+        - attributes:
+            id: ccl
+            value: '4030988290'
+          type: Dynamic
+        type: Values
+      type: Hex
+    CCL_LUTCTRL_REGVALUE3:
+      attributes:
+        id: CCL_LUTCTRL_REGVALUE3
+      children:
+      - children:
+        - attributes:
+            id: ccl
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    CCL_SEQCTRL_REGVALUE0:
+      attributes:
+        id: CCL_SEQCTRL_REGVALUE0
+      children:
+      - children:
+        - attributes:
+            id: ccl
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    CCL_SEQCTRL_REGVALUE1:
+      attributes:
+        id: CCL_SEQCTRL_REGVALUE1
+      children:
+      - children:
+        - attributes:
+            id: ccl
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Hex
+    CTRL0__ENABLE:
+      attributes:
+        id: CTRL0__ENABLE
+      children:
+      - children:
+        - attributes:
+            id: ccl
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: KeyValueSet
+    LUTCTRL0__ENABLE:
+      attributes:
+        id: LUTCTRL0__ENABLE
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    LUTCTRL0__INSEL0:
+      attributes:
+        id: LUTCTRL0__INSEL0
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    LUTCTRL0__INSEL1:
+      attributes:
+        id: LUTCTRL0__INSEL1
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        type: Attributes
+      type: KeyValueSet
+    LUTCTRL0__INSEL2:
+      attributes:
+        id: LUTCTRL0__INSEL2
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '0'
+          type: User
+        type: Values
+      type: KeyValueSet
+    LUTCTRL0__LUTEO:
+      attributes:
+        id: LUTCTRL0__LUTEO
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: KeyValueSet
+    LUTCTRL0__TRUTH:
+      attributes:
+        id: LUTCTRL0__TRUTH
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: Hex
+    LUTCTRL1__ENABLE:
+      attributes:
+        id: LUTCTRL1__ENABLE
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    LUTCTRL1__INSEL0:
+      attributes:
+        id: LUTCTRL1__INSEL0
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '8'
+          type: User
+        type: Values
+      type: KeyValueSet
+    LUTCTRL1__INSEL1:
+      attributes:
+        id: LUTCTRL1__INSEL1
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '8'
+          type: User
+        type: Values
+      type: KeyValueSet
+    LUTCTRL1__INSEL2:
+      attributes:
+        id: LUTCTRL1__INSEL2
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '9'
+          type: User
+        type: Values
+      type: KeyValueSet
+    LUTCTRL1__TRUTH:
+      attributes:
+        id: LUTCTRL1__TRUTH
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '200'
+          type: User
+        type: Values
+      type: Hex
+    LUTCTRL3__ENABLE:
+      attributes:
+        id: LUTCTRL3__ENABLE
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    LUTCTRL3__INSEL2:
+      attributes:
+        id: LUTCTRL3__INSEL2
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: KeyValueSet
+    LUTCTRL3__TRUTH:
+      attributes:
+        id: LUTCTRL3__TRUTH
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: Hex
+    LUTCTRL3__LUTEO:
+      attributes:
+        id: LUTCTRL3__LUTEO
+      children:
+      - children:
+        - attributes:
+            id: readOnly
+          children:
+          - type: Value
+            value: 'false'
+          type: Boolean
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      type: KeyValueSet
+    LUTCTRL2__ENABLE:
+      attributes:
+        id: LUTCTRL2__ENABLE
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    LUTCTRL2__INSEL2:
+      attributes:
+        id: LUTCTRL2__INSEL2
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '4'
+          type: User
+        type: Values
+      type: KeyValueSet
+    LUTCTRL2__TRUTH:
+      attributes:
+        id: LUTCTRL2__TRUTH
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '240'
+          type: User
+        type: Values
+      type: Hex
+    LUTCTRL2__LUTEO:
+      attributes:
+        id: LUTCTRL2__LUTEO
+      children:
+      - children:
+        - attributes:
+            id: visible
+          children:
+          - type: Value
+            value: 'true'
+          type: Boolean
+        type: Attributes
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+  userData: {}

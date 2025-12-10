@@ -1,0 +1,106 @@
+configVersion: 1.0.0
+componentName: dac
+coreVersion: 5.8.3
+device: PIC32CM5164JH01048
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: dac
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.23.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: dac
+          x: '223'
+          y: '363'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    DAC_BUFFER_EMPTY_EVENT_OUTPUT:
+      attributes:
+        id: DAC_BUFFER_EMPTY_EVENT_OUTPUT
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    DAC_DITHERING_MODE:
+      attributes:
+        id: DAC_DITHERING_MODE
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+    DAC_EVCTRL:
+      attributes:
+        id: DAC_EVCTRL
+      children:
+      - children:
+        - attributes:
+            id: dac
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: Hex
+    DAC_OUTPUT_MODE:
+      attributes:
+        id: DAC_OUTPUT_MODE
+      children:
+      - children:
+        - attributes:
+            id: dac
+            value: '2'
+          type: Dynamic
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DAC_REFERENCE_SELECTION:
+      attributes:
+        id: DAC_REFERENCE_SELECTION
+      children:
+      - children:
+        - attributes:
+            value: '1'
+          type: User
+        type: Values
+      type: KeyValueSet
+    DAC_START_CONVERSION_EVENT_INPUT:
+      attributes:
+        id: DAC_START_CONVERSION_EVENT_INPUT
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    DAC_VOLTAGE_PUMP_DISABLED:
+      attributes:
+        id: DAC_VOLTAGE_PUMP_DISABLED
+      children:
+      - children:
+        - attributes:
+            value: 'false'
+          type: User
+        type: Values
+      type: Boolean
+  userData: {}
