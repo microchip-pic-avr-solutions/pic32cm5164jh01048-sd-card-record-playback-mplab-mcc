@@ -8,9 +8,9 @@
    </picture>
 </a>
 
-# Audio Player and Recorder Using the PIC32CM5164JH01048 Microcontroller
+# Audio Player and Recorder Using the PIC32CM5164JH01048 Microcontroller Based on the Arm® Cortex®-M0+ Processor
 
-This repository provides an MPLAB® X project that showcases an audio player and recorder application, implemented using only the PIC32CM JH01 Curiosity Nano and Curiosity Nano Explorer boards.
+This repository provides an MPLAB® X project that showcases an audio player and recorder application, implemented using the PIC32CM JH01 Curiosity Nano and Curiosity Nano Explorer boards. The project features the PIC32CM5164JH01048 microcontroller based on the Arm® Cortex®-M0+ processor.
 
 ## Related Documentation
 
@@ -109,7 +109,7 @@ Robust error handling is implemented, with automatic unmounting and reinitializa
 
 <br><img src="images/hardware_interaction_diagram.png" width="1000">
 
-## Wiring diagram
+## Wiring Diagram
 
 <br><img src="images/wiring_diagram.png" width="1000">
 
@@ -215,11 +215,15 @@ This chapter demonstrates how to use the MPLAB X IDE to program a PIC® device w
 
 - - - 
 ## Menu
-- [Back to Top](#audio-player-and-recorder-using-the-pic32cm5164jh01048-microcontroller)
+- [Back to Top](#audio-player-and-recorder-using-the-pic32cm5164jh01048-microcontroller-based-on-the-arm-cortex-m0-processor)
 - [Back to Related Documentation](#related-documentation)
 - [Back to Software Used](#software-used)
 - [Back to Hardware Used](#hardware-used)
 - [Back to Operation](#operation)
 - [Back to Concept](#concept)
+- [Back to MCU Peripherals and Hardware Interaction Diagram](#mcu-peripherals-and-hardware-interaction-diagram)
+- [Back to Wiring Diagram](#wiring-diagram)
+- [Back to Pin Table](#pin-table)
+- [Back to Demonstration](#demonstration)
 - [Back to Summary](#summary)
 - [Back to How to Program the Microcontroller](#how-to-program-the-microcontroller)

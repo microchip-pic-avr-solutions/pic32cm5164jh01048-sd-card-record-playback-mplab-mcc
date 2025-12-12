@@ -4,10 +4,10 @@
     "content": {
         "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu.mplabx.project.pic32cm5164jh01048-sd-card-record-playback-mplab-mcc",
-        "version": "1.0.0",
-        "displayName": "Audio Player and Recorder Using the PIC32CM5164JH01048 Microcontroller",
+        "version": "1.0.1",
+        "displayName": "Audio Player and Recorder Using the PIC32CM5164JH01048 Microcontroller Based on the Arm® Cortex®-M0+ Processor",
         "projectName": "pic32cm5164jh01048-sd-card-record-playback-mplab-mcc",
-        "shortDescription": "This repository provides an MPLAB X project that showcases an audio player and recorder application, implemented using only the PIC32CM JH01 Curiosity Nano and Curiosity Nano Explorer boards.",
+        "shortDescription": "This repository provides an MPLAB® X project that showcases an audio player and recorder application, implemented using the PIC32CM JH01 Curiosity Nano and Curiosity Nano Explorer boards. The project features the PIC32CM5164JH01048 microcontroller based on the Arm® Cortex®-M0+ processor.",
         "ide": [
             {
                 "name": "MPLAB X",
